@@ -13,3 +13,6 @@ To get up and running, clone this repo, bundle, and rake as normal.
 
 ### Testing
 `bundle exec rspec`
+
+### React Tests 
+`rake jasmine`
