@@ -36,6 +36,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-stack_explorer'
   gem 'pry-theme'
+  gem 'jasmine'
 end
 
 group :test do
