@@ -1,11 +1,11 @@
 describe("QuestionsShow", function(){
   var question;
   beforeEach(function(){
-    question = React.createElement(QuestionsShow, { question: {q1: "how do you say hi?" }, answer: "yo", questions:[]});
+    question = React.createElement(QuestionsShow, { question: {q1: "how do you say hi?" }, answers: ["yo"], questions:[]});
   });
 
   it ("should have valid element", function(){
-    expect(question.props.answer).toEqual("yo");
+    expect(question.props.answers).toEqual(["yo"]);
   })
   it ("should have an empty array of questions", function(){
     expect(question.props.questions).toEqual([]);
